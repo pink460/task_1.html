@@ -1,0 +1,27 @@
+ol{
+    flex-direction:row;
+    list-style: none;
+    justify-content: space-between;
+}
+#parent div{
+    background-color: yellow;
+    width: 200px;
+}
+
+.child-div {
+    width: 50px;
+background-color: brown;
+flex-direction: row;
+justify-content: space-between;
+}
+
+#container-div {
+    width: 700px;
+    height: 800px;
+    background-color: skyblue;
+}
+
+p {
+    color: red;
+    flex-direction: column-reverse;
+}
