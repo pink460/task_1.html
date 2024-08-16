@@ -2,23 +2,35 @@ ol{
     flex-direction:row;
     list-style: none;
     justify-content: space-between;
+    display: flex;
 }
-#parent div{
+
+
+
+
+
+#parent-div{
     background-color: yellow;
     width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
 }
 
 .child-div {
     width: 50px;
-background-color: brown;
-flex-direction: row;
-justify-content: space-between;
+background-color: brown
+
 }
+
 
 #container-div {
     width: 700px;
     height: 800px;
     background-color: skyblue;
+    display: flex;
+    flex-direction: column-reverse;
 }
 
 p {
